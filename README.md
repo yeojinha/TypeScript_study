@@ -1,4 +1,4 @@
-1. TypeScript Types vs JavaScript Types
+* <strong>TypeScript Types vs JavaScript Types
 
   * TypeScript에서 프로그램 작성을 위해 기본 제공하는 데이터타입
   * 사용자가 만든 타입은 결국 이 기본 자료형으로 나뉘어진다.
@@ -77,7 +77,7 @@ new Boolean (false); // typeof new Boolean(false) : 'object'
 new String ('world'); // typeof new String('world') : 'object'
 new Number(42); // typeof new Number(42): 'object'
 ```
-  Type Casing
+  H2 Type Casing
     * TypeScript의 핵심 primitive types은 모두 소문자다.
     * Number, String, Boolean, Symbol 또는 Object 유형이 위에서 권장한 소문자 버전과 동일하다고 생각할 수 있지만, 이러한 유형은 언어 primitives를 나타내지 않으며, 타입으로는 사용해선 안된다.
 
